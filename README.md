@@ -1,28 +1,43 @@
 cloud-dns
 =========
 
-常用云服务DNS。某些情况下可能处于受限的网络环境，云服务可能被DNS污染。解决方法是修改DNS为运营商的DNS，例如浙江电信：
+可以通过修改hosts文件的方法让部分云服务绕过小墙。目前可以实现的有百度网盘，新浪网盘，腾讯微云，115网盘，云笔记。解决大墙的有Github Gist和Leetcode。
 
 ```
-202.101.172.47
-202.101.172.47
-```
+# gist
+192.30.252.141          gist.github.com
 
-如果无法修改DNS，也可以通过修改hosts文件达到目的。
+# leetcode
+173.230.148.103	leetcode.com
 
-```
-# cloud note
-123.58.182.252          note.youdao.com
-119.254.30.33           www.yinxiang.com
-204.154.94.73           evernote.com
-59.41.39.24             yunbiji.com
+# yunbiji
+221.5.96.250             yunbiji.com
 
-# cloud disk
-180.149.134.154         vdisk.weibo.com
+# baidu disk
+202.108.23.29           pan.baidu.com
+
+# sina vdisk
+121.194.0.223           vdisk.weibo.com
+
+# tencent weiyun
 101.226.129.205         www.weiyun.com
-58.68.151.135           yunpan.360.cn
-42.62.61.26             www.kuaipan.cn
-118.194.62.130          www.dbank.com
-119.147.156.111         www.115.com
-180.149.132.99          pan.baidu.com
+
+# 115disk
+58.253.94.246           www.115.com
+58.253.94.246           passport.115.com
+58.253.94.246           assets.115.com
+58.253.94.246           static.115img.com
+```
+
+印象笔记网页版可以使用地址[https://app.yinxiang.com/Home.action](https://app.yinxiang.com/Home.action)来访问。
+
+### TODO
+
+```
+note.youdao.com
+www.yinxiang.com
+evernote.com
+yunpan.360.cn
+www.kuaipan.cn
+www.dbank.com
 ```
